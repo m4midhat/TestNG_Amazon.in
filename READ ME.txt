@@ -1,0 +1,21 @@
+Pre-requisites:
+	Maven needs to be installed and configures
+	Allure needs to be installed
+
+Install Allure
+	Windows
+		scoop install allure
+	Linux
+		sudo apt-add-repository ppa:qameta/allure
+		sudo apt-get update 
+		sudo apt-get install allure
+	MacOS
+		brew install allure
+
+HOW TO RUN TESTS:
+	1) Unzip the application
+	2) Browse the application to the base folder(Folder contents: .idea, allure-results, src, target, config.properties, pom.xml, READ ME.txt, testng.xml)
+	3) Open the command prompt to the above base folder
+	4) Write command "mvn clean"
+	5) Write command "mvn test"
+	6) To see the allure results, write command "allure serve"

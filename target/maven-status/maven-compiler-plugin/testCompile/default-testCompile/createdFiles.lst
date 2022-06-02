@@ -1,0 +1,7 @@
+POM\HomePOM.class
+Base\LocatorBase.class
+Test\SamsungTVDetails.class
+Base\TestBase.class
+Base\ConstantBase.class
+POM\HomeLocator.class
+Base\POMBase.class
